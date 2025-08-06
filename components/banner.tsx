@@ -3,15 +3,20 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import ImageModal from "./image-modal"; // Import the new ImageModal component
 
 export default function Banner() {
   const [mounted, setMounted] = useState(false);
+  const [isProfileImageOpen, setIsProfileImageOpen] = useState(false); // State for modal
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
   if (!mounted) return null;
+
+  // Updated profile image URL
+  const profileImageUrl = "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-08-06%20at%2013.52.40-Vep7xfG6EsynY6572OiBaGJJVNeefi.jpeg";
 
   return (
     <motion.div 
@@ -31,20 +36,32 @@ export default function Banner() {
       <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
       
       <div className="absolute bottom-0 left-0 w-full p-6 flex items-end">
-        <div className="relative h-20 w-20 rounded-full border-4 border-white overflow-hidden">
+        <button
+          onClick={() => setIsProfileImageOpen(true)} // Open modal on click
+          className="relative h-20 w-20 rounded-full border-4 border-white overflow-hidden cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          aria-label="View profile picture"
+        >
           <Image 
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-08-06%20at%2013.52.40-vLpz9hYLnYUU4UhwypxNbgO25UmIC5.jpeg"
+            src={profileImageUrl || "/placeholder.svg"}
             alt="Akki Aryan"
             fill
             className="object-cover"
           />
-        </div>
+        </button>
         
         <div className="ml-4">
           <h1 className="text-2xl font-bold text-white">Akki Aryan</h1>
           <p className="text-white/90">Backend Developer & Data Researcher</p>
         </div>
       </div>
+
+      {isProfileImageOpen && (
+        <ImageModal 
+          src={profileImageUrl || "/placeholder.svg"}
+          alt="Akki Aryan - Full Size"
+          onClose={() => setIsProfileImageOpen(false)} 
+        />
+      )}
     </motion.div>
   );
 }

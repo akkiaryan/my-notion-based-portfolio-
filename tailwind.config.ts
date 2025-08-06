@@ -2,7 +2,12 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
   darkMode: ["class"],
-  content: ["./pages/**/*.{js,ts,jsx,tsx,mdx}", "./components/**/*.{js,ts,jsx,tsx,mdx}", "./app/**/*.{js,ts,jsx,tsx,mdx}", "*.{js,ts,jsx,tsx,mdx}"],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}", // Keep this if you have app/ for globals.css or other assets
+    "*.{js,ts,jsx,tsx,mdx}"
+  ],
   theme: {
     container: {
       center: true,
@@ -12,6 +17,12 @@ const config: Config = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['var(--font-raleway)', 'sans-serif'], // Set Raleway as default sans-serif
+        inter: ['var(--font-inter)', 'sans-serif'], // Keep inter if needed for specific elements
+        lora: ['var(--font-lora)', 'serif'], // Lora for scholarly text
+        raleway: ['var(--font-raleway)', 'sans-serif'], // Explicitly define Raleway
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -45,6 +56,31 @@ const config: Config = {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        // Custom colors for sticky notes
+        yellow: {
+          100: '#ffe28c', // To-Do
+          800: '#8a6a00',
+          900: '#4d3b00',
+          200: '#fff0b3',
+        },
+        blue: {
+          100: '#b8d8d8', // Present
+          800: '#005f60',
+          900: '#003b3c',
+          200: '#e0f2f2',
+        },
+        green: {
+          100: '#d5e5a3', // Upcoming
+          800: '#4d6a00',
+          900: '#2e4000',
+          200: '#eaf2d9',
+        },
+        purple: {
+          100: '#baa9ba', // Done
+          800: '#5e4d5e',
+          900: '#3b303b',
+          200: '#e0d9e0',
         },
       },
       borderRadius: {
