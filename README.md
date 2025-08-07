@@ -12,10 +12,6 @@ Any changes you make to your deployed app will be automatically pushed to this r
 
 ## Deployment
 
-Your project is live at:
-
-**[https://vercel.com/sparsh-sonis-projects/v0-notion-portfolio-design](https://vercel.com/sparsh-sonis-projects/v0-notion-portfolio-design)**
-
 ## Build your app
 
 Continue building your app on:
