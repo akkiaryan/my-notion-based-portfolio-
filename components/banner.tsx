@@ -51,7 +51,7 @@ export default function Banner() {
         
         <div className="ml-4">
           <h1 className="text-2xl font-bold text-white">Akki Aryan</h1>
-          <p className="text-white/90">Backend Developer & Data Researcher</p>
+          <p className="text-white/90">Data Researcher & Backend Developer</p>
         </div>
       </div>
 
