@@ -46,13 +46,6 @@ I’ve kept it **simple, fast, and accessible** — no bloat, no unnecessary ani
 
 ---
 
-## 📸 Preview
-
-| Desktop View | Mobile View |
-|--------------|-------------|
-| ![Desktop Screenshot](assets/desktop-preview.png) | ![Mobile Screenshot](assets/mobile-preview.png) |
-
----
 
 ## 📅 Upcoming Additions
 - 📝 Blog & micro-updates section
