@@ -9,6 +9,7 @@ import BlogPreview from "@/components/blog-preview";
 import Testimonials from "@/components/testimonials";
 import Contact from "@/components/contact";
 import ChatbotButton from "@/components/chatbot/chatbot-button";
+import Footer from "@/components/footer"; // Import the new Footer component
 
 export const metadata: Metadata = {
   title: "Akki Aryan - Portfolio",
@@ -32,6 +33,7 @@ export default function Home() {
       </div>
       
       <ChatbotButton />
+      <Footer /> {/* Add the Footer component here */}
     </main>
   );
 }
