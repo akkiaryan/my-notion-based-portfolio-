@@ -10,8 +10,6 @@ const navItems = [
   { name: "Experience", href: "#experience" },
   { name: "Projects", href: "#projects" },
   { name: "Skills", href: "#skills" },
-  { name: "Publications", href: "#publications" },
-  { name: "Blog", href: "#blog" },
   { name: "Contact", href: "#contact" },
 ];
 
@@ -38,7 +36,7 @@ export default function Header() {
       <div className="max-w-4xl mx-auto px-4 flex items-center justify-between h-16">
         <div className="flex items-center">
           <a href="#" className="text-lg font-semibold">
-            Akki Aryan
+            Harshit Ranjan
           </a>
         </div>
 

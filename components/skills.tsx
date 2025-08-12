@@ -13,18 +13,13 @@ interface SkillCategory {
 const skillCategories: SkillCategory[] = [
   {
     title: "Programming Languages",
-    skills: "Python, SQL, JavaScript (ES6+), C, Shell",
+    skills: "JavaScript (ES6+), JAVA",
     icon: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/375de42a-fc94-4552-8bb1-695be550b435-Ex5c7K5aEdeZwJlNOBVuyPDWPTrnXY.gif"
   },
   {
     title: "Web Development",
-    skills: "React.js, Node.js, Express.js, MySQL, MongoDB, HTML/CSS, Tailwind, Figma",
+    skills: "Next.js, React.js, Node.js, Express.js, MySQL, MongoDB, HTML/CSS, Tailwind CSS, Typescript, Redux, Firebase, RestAPI, ",
     icon: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/74f2307b-40d4-440c-98e3-f05b7b440361-cMbB6wV2oqHsCaxNM7ahBdv9Fl4axg.jpeg"
-  },
-  {
-    title: "Data & AI Tools",
-    skills: "Pandas, NumPy, Scikit-learn, Power BI, Matplotlib, Seaborn, LangChain, HuggingFace, RAG, Prompt Engineering",
-    icon: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/217eebd1-8646-4f5e-949a-750c20a01283-ccMeTV7KKdsjyyF3uXPboU5NecUCHj.gif"
   },
   {
     title: "Soft Skills",

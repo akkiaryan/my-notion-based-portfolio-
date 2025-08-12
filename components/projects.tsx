@@ -15,37 +15,43 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Ark OS – Educational Operating System Prototype",
-    description: "Educational micro-operating system simulation in C",
+    title: "REELS PRO",
+    description: "Dive into the World of Creating Reels",
     details: [
-      "Designed a simulated micro-operating system to emulate foundational system-level behaviors.",
-      "Implemented arithmetic computation modules and persistent journaling using low-level I/O functions.",
-      "Demonstrated memory handling and basic kernel-like routines to enhance understanding of OS internals.",
-      "Applied structured programming to reinforce theoretical concepts in system architecture through a practical prototype."
+      "Developed a full-stack short video platform modeled after YouTube Shorts and Instagram Reels, allowing users to view vertically formatted (9:16) videos in a seamless",
+
+      "Implemented secure authentication using JWT, where users receive a token valid for 24 hours, restricting access to the home feed and requiring re-authentication after expiry for enhanced security.",
+
+      "Integrated ImageKit for media handling, enabling users to upload videos with optimized performance, fast content delivery, and secure cloud storage.",
+
+      " Planned advanced user features, including personal profile pages to display uploaded content and functionality for uploaders to delete their own videos, improving content management and user engagement."
     ],
-    technologies: ["C", "File I/O", "Assembly Concepts"],
-    link: "https://github.com/akkiaryan/ark-os"
+    technologies: ["NextJS", "Tailwind CSS", "Typescript", "NodeJS", "ImageKit", "MongoDB Atlas", "REST APIs", "Jsonwebtoken" ],
+    link: "https://github.com/harshitrnjn/reelspro"
   },
   {
-    title: "InTrap – Automation Workflow Platform (SaaS)",
-    description: "SaaS platform for building automated workflows across APIs, with Node.js backend",
+    title: "MYSTRY-MSG",
+    description: "Inspired by the trend of anonymous NGL-style messaging seen all over Instagram",
     details: [
-      "Developed a modular automation tool enabling service integration across APIs through configurable nodes.",
-      "Constructed asynchronous task pipelines and implemented state persistence for robust failure recovery.",
-      "Integrated third-party APIs (e.g., Google Sheets, Slack) to streamline multi-system workflows.",
+      "Developed a full stack web application enabling users to send and receive anonymous messages via auto-generated unique links after successful registration with authentication, in which user can send messages without their names being revealed, the person receiving the message won’t know who sent it.",
+
+      "Implemented user dashboards to display received messages, ensuring real-time updates and secure message handling.",
+
+      "Designed and integrated both frontend and backend components, focusing on user experience, data privacy, and system reliability.",
+
       "Deployed via containerized infrastructure, reducing manual process overhead by ~50% in trial deployments."
     ],
-    technologies: ["Node.js", "Docker", "REST APIs"],
-    link: "https://github.com/akkiaryan/intrap"
+    technologies:  [ "NextJS", "Tailwind CSS", "Nodemailer", "Node.js", "Docker", "REST APIs", "MongoDB Atlas", "Rest API"],
+    link: "https://github.com/harshitrnjn/mystery-message"
   },
   {
-    title: "Ark Invoice – Invoice Management Platform",
-    description: "Full-stack invoice management app (React & Node) enabling automated invoicing and payment reminders",
+    title: "N/A",
+    description: "",
     details: [
-      "Built a scalable invoice management system supporting client profiles, PDF generation, and automated billing reminders.",
-      "Integrated backend services for transaction tracking and front-end dashboards for financial overviews.",
-      "Designed secure user authentication and multi-tenant data handling for business-grade usability.",
-      "Implemented automated email alerts and historical invoice logs, reducing payment delays during pilot adoption."
+      "",
+      "",
+      "",
+      ""
     ],
     technologies: ["React.js", "Express", "Nodemailer"],
     link: "https://github.com/akkiaryan/ark-invoice"

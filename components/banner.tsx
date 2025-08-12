@@ -16,7 +16,7 @@ export default function Banner() {
   if (!mounted) return null;
 
   // Updated profile image URL
-  const profileImageUrl = "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-08-06%20at%2013.52.40-Vep7xfG6EsynY6572OiBaGJJVNeefi.jpeg";
+  const profileImageUrl = "https://res.cloudinary.com/dufsbdr8v/image/upload/v1739467548/dpkq8gfwhppby401vs7q.jpg";
 
   return (
     <motion.div 
@@ -26,7 +26,7 @@ export default function Banner() {
       transition={{ duration: 0.5 }}
     >
       <Image
-        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/notion%20banner%20animation.gif-fXlWEAGFnBPSVf9sDmmnp7CN6oWalJ.jpeg"
+        src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt="Japanese landscape with pagodas and cherry blossoms"
         fill
         className="object-cover"
@@ -50,8 +50,8 @@ export default function Banner() {
         </button>
         
         <div className="ml-4">
-          <h1 className="text-2xl font-bold text-white">Akki Aryan</h1>
-          <p className="text-white/90">Data Researcher & Backend Developer</p>
+          <h1 className="text-2xl font-bold text-white">Harshit Ranjan</h1>
+          <p className="text-white/90">Full Stack Developer | Aspiring Software Developer</p>
         </div>
       </div>
 

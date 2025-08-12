@@ -4,16 +4,14 @@ import AboutMe from "@/components/about-me";
 import Experience from "@/components/experience";
 import Projects from "@/components/projects";
 import Skills from "@/components/skills";
-import Publications from "@/components/publications";
-import BlogPreview from "@/components/blog-preview";
 import Testimonials from "@/components/testimonials";
 import Contact from "@/components/contact";
 import ChatbotButton from "@/components/chatbot/chatbot-button";
-import Footer from "@/components/footer"; // Import the new Footer component
+import Footer from "@/components/footer"; 
 
 export const metadata: Metadata = {
-  title: "Akki Aryan - Portfolio",
-  description: "Akki Aryan's personal portfolio showcasing projects in backend development, data analysis, and machine learning.",
+  title: "Harshit Ranjan - Portfolio",
+  description: "Harshit Ranjan's personal portfolio showcasing projects in frontend development, backend development.",
 };
 
 export default function Home() {
@@ -26,8 +24,6 @@ export default function Home() {
         <Experience />
         <Projects />
         <Skills />
-        <Publications />
-        <BlogPreview />
         <Testimonials />
         <Contact />
       </div>

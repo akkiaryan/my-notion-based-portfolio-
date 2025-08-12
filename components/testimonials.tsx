@@ -12,19 +12,19 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    quote: "Throughout his time in our R&D department, Akki Aryan consistently demonstrated a strong aptitude for research, creative problem-solving, and a drive to innovate. His contributions had a meaningful impact on our projects, and he quickly became a trusted and valued team member.",
-    name: "Nidhi B Kurpad",
-    role: "MedAi Founder and Leader"
+    quote: "During this period, your contributions have been instrumental in significantly improving our online brand presence. Your exceptional work in building and optimizing our website has had a remarkable impact. You not only enhanced the user experience but also developed a cohesive, fully functional platform that has attracted a wider audience and strengthened our digital footprint. Your expertise in crafting a responsive, user-friendly interface, as well as integrating essential features, has been highly commendable. ",
+    name: "NAPX - Team Lead",
+    role: "Frontend Development"
   },
   {
-    quote: "Akki did an amazing job as a UI/UX intern at NAPX. He designed a fantastic website for us, making the user experience seamless and visually stunning. He also helped curate our product catalog, which turned out great. Akki is creative, hardworking, and a pleasure to work with – highly recommend him!",
-    name: "NAPX Team Lead",
-    role: "UI/UX Department"
+    quote: "Harshit has been an invaluable asset to our team as a frontend developer. He took ownership of maintaining our codebase with precision and consistency, ensuring smooth functionality across the project. His proactive approach to implementing regular updates and adding thoughtful new features greatly enhanced the user experience. Harshit’s attention to detail, problem-solving skills, and dedication made a real difference to our product. He is professional, reliable, and a pleasure to collaborate with – highly recommended!",
+    name: "REALTORSTAT Team Lead",
+    role: "Frontend Development"
   },
   {
-    quote: "During his time in our IEEE Computer Society chapter, Akki stood out as a proactive and dedicated junior. He played a key role in the strategic planning of events like Cicada for ARCS, our flagship event, and his teamwork and collaborative spirit were truly commendable.",
-    name: "Siddhant Malpani",
-    role: "Ex-IEEE CS chairperson"
+    quote: "Harshit developed a full-stack project for our family’s refined oil factory, delivering a robust and user-friendly platform. Even with an unexpected 3-month extension from our side, he stayed committed and polished the product further. The final result received great reviews and exceeded expectations.",
+    name: "Client",
+    role: "Refined Oil Factory Project"
   }
 ];
 

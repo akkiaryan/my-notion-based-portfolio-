@@ -32,7 +32,7 @@ export default function Contact() {
     
     try {
       const formDataToSend = new FormData();
-      formDataToSend.append("access_key", "5aed00c2-169f-40b2-83c3-a8e1405e1800");
+      formDataToSend.append("access_key", "2ca9fb98-cea0-4eba-8375-1c7fcf5bde8e");
       formDataToSend.append("name", formData.name);
       formDataToSend.append("email", formData.email);
       formDataToSend.append("message", formData.message);
@@ -182,13 +182,13 @@ export default function Contact() {
               <div className="flex items-center space-x-2">
                 <Mail className="h-5 w-5 text-gray-500" />
                 <a href="mailto:akkiaryan.social@gmail.com" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200">
-                  akkiaryan.social@gmail.com
+                  harshitranjan0000@gmail.com
                 </a>
               </div>
               
               <div className="flex space-x-4 mt-6">
                 <a 
-                  href="https://linkedin.com/in/itsmeakki" 
+                  href="https://www.linkedin.com/in/harshit-ranjan-26518a264/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-2 bg-gray-100 dark:bg-gray-800 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
@@ -197,7 +197,7 @@ export default function Contact() {
                   <Linkedin className="h-5 w-5" />
                 </a>
                 <a 
-                  href="https://github.com/akkiaryan" 
+                  href="https://github.com/harshitrnjn" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-2 bg-gray-100 dark:bg-gray-800 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"

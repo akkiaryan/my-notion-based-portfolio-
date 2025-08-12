@@ -21,10 +21,10 @@ export default function AboutMe() {
       <div className="pl-7">
         <div className="prose dark:prose-invert max-w-none">
           <p>
-            I am Akki Aryan, a final‑year Computer Science Engineering student at VIT Vellore, passionate about building intelligent, data‑driven systems that bridge research and real‑world applications. My work spans backend development, data analytics, and applied AI/ML, with published research in memory augmentation frameworks and AI‑driven predictive diagnostics.
+            I’m Harshit Ranjan — a developer who’s all about building things that work and make sense. Whether it’s frontend polish or backend logic, I dive into every layer of the stack to bring ideas to life. 
           </p>
           <p>
-            Currently, I am advancing projects in responsible AI and computational genomics, focusing on scalable automation and actionable insights. I am actively seeking roles in data engineering, backend development, or research‑driven product teams where I can translate cutting‑edge AI and system design principles into impactful solutions.
+            I take on freelance gigs, not just to write code, but to solve actual tech problems — performance bottlenecks, messy bugs, broken flows — I break them down, fix them up, and make things smoother. I’m not in it for just titles — I’m here to grow as a full-stack engineer who knows how to think, not just build. Real-world challenges keep me going, and I’m always chasing cleaner solutions, sharper logic, and better outcomes.
           </p>
         </div>
       </div>

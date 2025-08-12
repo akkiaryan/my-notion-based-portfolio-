@@ -13,23 +13,23 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    title: "Intern – Network Performance Visualization",
-    company: "ONGC",
-    period: "May 2025 – July 2025",
+    title: "Frontend Developer",
+    company: "NAPX",
+    period: "15 May 2024 – 15 August 2024",
     description: [
-      "Developed a dynamic dashboard to monitor WAN performance metrics across multiple nodes.",
-      "Conducted comparative analysis of network protocol standards and recommended optimal configurations based on efficiency and reliability.",
-      "Facilitated integration with existing network infrastructure to improve operational visibility and reduce diagnostic latency."
+      "Developed an engaging e-commerce website from the ground up, delivering a seamless and intuitive user experience designed to enhance customer engagement and streamline the shopping journey.",
+      "Designed and implemented a user-friendly contact interface, enabling users to submit inquiries efficiently, which are then processed by the internal team for personalized follow-up and service.",
+      " Integrated multilingual support and virtual reception features, ensuring clear and effective communication with a diverse customer base and enhancing the overall user experience."
     ]
   },
   {
-    title: "Research Analyst – AI Systems Governance",
-    company: "MedAI Technologies",
-    period: "Sep 2024 – Nov 2024",
+    title: " Frontend Developer",
+    company: "REALTORSTAT",
+    period: "August 31, 2023 – October 31, 2023",
     description: [
-      "Contributed to the development of evaluation frameworks for responsible AI, focusing on fairness, transparency, and accountability in data-intensive systems.",
-      "Modeled edge-case scenarios in AI behavior and assessed system robustness in compliance with ethical standards.",
-      "Drafted internal review documentation for model interpretability and trust calibration in AI-assisted applications."
+      "Collaborated with a client on a freelance project to enhance their existing real estate website by adding new pages and functionalities.",
+      "Implemented key features, including a property and agent filtering system based on location and budget preferences.",
+      " Responsible for ongoing website maintenance and updates over a 2-month period, ensuring smooth functionality and improved user experience."
     ]
   }
 ];
@@ -45,7 +45,7 @@ export default function Experience() {
   };
 
   return (
-    <motion.section 
+    <motion.section
       id="experience"
       className="space-y-4"
       initial={{ opacity: 0 }}
@@ -57,10 +57,10 @@ export default function Experience() {
         <Briefcase className="h-5 w-5 text-gray-500" />
         <h2 className="text-xl font-semibold">Experience</h2>
       </div>
-      
+
       <div className="pl-7 space-y-3">
         {experiences.map((exp, index) => (
-          <div 
+          <div
             key={index}
             className="border border-gray-200 dark:border-gray-800 rounded-md overflow-hidden"
           >
@@ -80,9 +80,9 @@ export default function Experience() {
                 <ChevronRight className="h-5 w-5 text-gray-500" />
               )}
             </button>
-            
+
             {expandedItems[index] && (
-              <motion.div 
+              <motion.div
                 className="p-4 pt-0 border-t border-gray-200 dark:border-gray-800"
                 initial={{ height: 0, opacity: 0 }}
                 animate={{ height: "auto", opacity: 1 }}
